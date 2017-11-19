@@ -45,7 +45,7 @@
         ]
     },
     "minimum-stability": "dev",
-    "replace": {
+    "provide": {
 	"symfony/routing": "v3.2.13"
     },
     "extra": {
