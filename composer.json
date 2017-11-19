@@ -1,5 +1,5 @@
 {
-    "name": "symfony/routing",
+    "name": "symfony@iglue/routing",
     "type": "library",
     "description": "Symfony Routing Component",
     "keywords": ["routing", "router", "URL", "URI"],
@@ -45,6 +45,9 @@
         ]
     },
     "minimum-stability": "dev",
+    "replace": {
+	"symfony/routing": "v3.2.13"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "3.2-dev"
